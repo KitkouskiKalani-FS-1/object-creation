@@ -1,7 +1,17 @@
 form{
+    display:inline-block;
     width:40%;
     border: 1px solid black;
     padding: 30px;
+    vertical-align: top;
+}
+#output{
+    display:inline-block;
+    width:40%;
+    border: 1px solid black;
+    padding: 30px;
+    min-height:300px;
+    vertical-align: top;
 }
 h2{
     color:#1e4620;
@@ -35,4 +45,8 @@ div {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+#displayBtn{
+    background-color: #2100b3;
 }
