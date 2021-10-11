@@ -1,8 +1,5 @@
-class Utils{
-    constructor(){
-
-    }
-    scrapWeight(weight){
-        return weight-200;
+class Utility{
+    static scrapWeight(weight){
+        return parseInt(weight*0.95);
     }
 }
