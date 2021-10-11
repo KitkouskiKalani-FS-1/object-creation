@@ -31,6 +31,7 @@ class Main{
     }
 
     displayCars(e){
+        e.preventDefault();
         this.result.innerHTML ="";
         this.message.style.opacity = "0";
         this.cars.forEach((car)=>{

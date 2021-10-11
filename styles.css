@@ -10,7 +10,7 @@ form{
     width:40%;
     border: 1px solid black;
     padding: 30px;
-    min-height:300px;
+    min-height:415px;
     vertical-align: top;
 }
 h2{
@@ -52,7 +52,6 @@ input[type=button]:hover {
 }
 
 div {
-    border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
