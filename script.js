@@ -5,6 +5,9 @@ class Car{
         this.weight = weight;
         this.scrapWeight = Utility.scrapWeight(weight);
     }
+    scrapRemoved(){
+        return this.weight - this.scrapWeight;
+    }
 }
 
 class Main{
@@ -35,7 +38,7 @@ class Main{
         this.result.innerHTML ="";
         this.message.style.opacity = "0";
         this.cars.forEach((car)=>{
-            this.result.innerHTML +=`<p>Make: ${car.make} <br>Model: ${car.model} <br>Weight: ${car.weight} lbs <br>Scrap Weight: ${car.scrapWeight} lbs <br>----------------------------</p>`;
+            this.result.innerHTML +=`<p>Make: ${car.make} <br>Model: ${car.model} <br>Weight: ${car.weight} lbs <br>Scrap Weight: ${car.scrapWeight} lbs <br> The amount before scrapping will be ${car.scrapRemoved()} lbs<br>----------------------------</p>`;
         })
     }
 }
